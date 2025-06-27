@@ -3,6 +3,8 @@
 *.sql
 *.txt
 package-lock.json
+server/env_Win
+server/.env_Mac
 
 #Node
 
