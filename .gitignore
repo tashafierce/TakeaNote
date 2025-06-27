@@ -10,6 +10,7 @@ client/src/OLD.jsx
 client/src/components/CreateArea.old.jsx
 client/src/components/EditArea.old.jsx
 client/src/components/NoteList.old.jsx
+client/src/components/NotesContext.jsx
 
 #Node
 
