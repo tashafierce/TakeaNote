@@ -1,0 +1,6 @@
+NODE_TLS_REJECT_UNAUTHORIZED=0
+PG_USER="eviltasha"
+PG_HOST="localhost"
+PG_DATABASE="devel"
+PG_PASSWORD="User-Error-2025!^"
+PG_PORT="5432"
