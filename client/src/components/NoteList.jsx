@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Note from './Note';
 
 function NoteList(props) {
@@ -8,17 +8,6 @@ const deleteUrl = "http://localhost:3000/api/delete";
 
 const [notes, setNotes] = useState([]);
 const notesRef = useRef([]);
-
-// const [isCurrentNotes, setCurrentNotes] = useState();
-
-// var currentNotes = (notes, currentNotes) => {
-//     return (
-//       notes.length === currentNotes.length && 
-//       notes.every((element1) => currentNotes.some((element2) => element1.title === element2 === title && element1.content === element2.content))
-//     )
-//   };
-
-// setCurrentNotes((isCurrentNotes) => currentNotes);
 
 useEffect(() => {
     let ignore = false;
